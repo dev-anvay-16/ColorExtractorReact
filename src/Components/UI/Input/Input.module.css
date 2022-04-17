@@ -1,0 +1,32 @@
+.input{
+    min-width : 400px;
+    align-self: center;
+    color: aliceblue;
+}
+
+.input input {
+    padding: 5px;
+    width: 500px;
+    margin-left: 1rem;
+    border: 2px solid rgb(53, 53, 53);
+    background-color: transparent;
+    color: aliceblue;
+    outline: none;
+    height: 20px;
+}
+
+.input input[type=file]::file-selector-button {
+  border: 2px solid rgb(53, 53, 53);
+  padding: 0 2em;
+  border-radius: .2em;
+  margin-right: 1rem;
+  background-color: transparent;
+  color: aliceblue;
+  text-transform: uppercase;
+  transition: 1s;
+}
+
+.input input[type=file]::file-selector-button:hover {
+  background-color: #3F424A;
+  border: 2px solid #797979;
+}

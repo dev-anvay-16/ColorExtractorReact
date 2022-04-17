@@ -1,0 +1,63 @@
+.image-color-picker{
+    display: flex;
+}
+
+.image-holder{
+    min-height: 250px;
+
+    min-width: calc(720px+2rem);
+    margin: 3rem 1rem 0 0;
+    padding: 1rem;
+   
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.picker{
+   min-height: 250px;
+
+    min-width: 300px;
+    margin: 3rem 1rem 0 0;
+    padding: 1rem;
+   
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.image-holder p {
+    text-align: center;
+}
+
+.image-holder img{
+   
+}
+
+.image-container{
+   border: 2px solid #353535;
+   box-sizing: border-box;
+ 
+ border-radius: 10px;
+ z-index: 20;
+ padding: 0.5rem;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ min-width:720px ;
+
+ 
+}
+
+.image-container > img{
+    align-self: center;
+    height: auto;
+    width: 720px;
+    /* padding: 0.5rem; */
+}
+
+.image-container p {
+    color: aliceblue;
+    padding: 1rem;
+}

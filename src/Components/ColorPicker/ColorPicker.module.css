@@ -1,0 +1,53 @@
+.magnify{
+    height: 110px;
+    width: 110px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: absolute;
+    top:0;
+    left:0;
+    visibility: hidden;
+    z-index: 100;
+    -webkit-box-shadow: 4px 2px 43px -5px rgba(53,53,53,0.4);
+-moz-box-shadow: 4px 2px 43px -5px rgba(53,53,53,0.4);
+box-shadow: 4px 2px 43px -5px rgba(53,53,53,0.4);
+   border: 2px solid aliceblue;
+}
+
+.magnify table{
+    max-height: 110px;
+    max-width: 110px;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+.magnify td{
+    box-sizing: border-box;
+    height: 10px;
+    width: 10px;
+    border: 0.1px solid #3e3e3e ;
+    margin: 0;
+    padding: 0;
+}
+
+.magnify tr:nth-child(6) td:nth-child(6){
+    border: 1px solid #ff4c4c;
+   
+}
+.magnify tr:nth-child(5) td:nth-child(6){
+    border-bottom: 1.5px solid #ff4c4c;
+   
+}
+.magnify tr:nth-child(6) td:nth-child(5){
+    border-right: 1.5px solid #ff4c4c;
+    
+   
+}
+.magnify tr:nth-child(6) td:nth-child(7){
+    border-left: 1.5px solid #ff4c4c;
+   
+}
+.magnify tr:nth-child(7) td:nth-child(6){
+    border-top: 1.5px solid #ff4c4c;
+   
+}

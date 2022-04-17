@@ -1,0 +1,18 @@
+.button{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    
+    width: 100px;
+    padding: 1rem;
+    font-weight:600;
+    font-size: 12px;
+    color: rgb(92, 92, 92);
+}
+
+.active {
+    color: aliceblue;
+    
+  
+}

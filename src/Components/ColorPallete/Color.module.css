@@ -1,0 +1,24 @@
+.color {
+    height: 40px;
+    width: 72px;
+    margin-bottom: 1rem;
+    position: relative;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.color p{
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-weight: 400;
+    color: aliceblue;
+    font-size: 13px;
+}
+
+.color:hover{
+    transform: scaleY(1.5);
+    cursor: pointer;
+    z-index: 100;
+}
